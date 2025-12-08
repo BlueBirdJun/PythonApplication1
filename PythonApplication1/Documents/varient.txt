@@ -1,0 +1,48 @@
+ 정수(int)- 
+ 실수(float)- 
+ 문자(str)- 
+ 참/거짓(bool)
+
+ 파이썬은 기본 자료형과 컬렉션 자료형 
+ 정수형
+ age = 20
+ count = -5
+ 실수형
+pi = 3.14
+temperature = -1.5
+
+name = "홍길동"
+msg = 'Hello Python'
+
+is_active = True
+is_login = False
+
+
+result = None
+
+바이트 
+data = b"hello"
+
+바이트 배열(bytearray)
+arr = bytearray([65, 66, 67])
+
+범위
+r = range(5)   # 0~4
+
+| 자료형       | 역할         | 예시               |
+| --------- | ---------- | ---------------- |
+| int       | 정수         | `10`             |
+| float     | 실수         | `3.14`           |
+| str       | 문자열        | `"Hello"`        |
+| bool      | 참/거짓       | `True`           |
+| None      | 값 없음       | `None`           |
+| list      | 순서, 수정 O   | `[1, 2, 3]`      |
+| tuple     | 순서, 수정 X   | `(1, 2, 3)`      |
+| dict      | 키-값        | `{"a":1}`        |
+| set       | 중복 없음      | `{1,2,3}`        |
+| bytes     | 읽기 전용 바이트  | `b"...“`         |
+| bytearray | 수정 가능한 바이트 | `bytearray(...)` |
+| range     | 숫자 범위      | `range(10)`      |
+
+
+한글을 할려면 6540~ 로 저장하면 된다. 
