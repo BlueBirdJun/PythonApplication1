@@ -4,10 +4,11 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b0fd9de5-bfa1-44dd-a446-accf35a496f2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>tuto1.py</StartupFile>
+    <StartupFile>./Training/main.py</StartupFile>
     <SearchPath>
     </SearchPath>
-    <WorkingDirectory>.</WorkingDirectory>
+    <WorkingDirectory>
+    </WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>PythonApplication1</Name>
     <RootNamespace>PythonApplication1</RootNamespace>
@@ -23,15 +24,28 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="PythonApplication1.py" />
+    <Compile Include="step1.py" />
+    <Compile Include="step2.py" />
+    <Compile Include="step3.py" />
+    <Compile Include="step4.py" />
+    <Compile Include="Training\AI고급문법.py" />
+    <Compile Include="Training\c#개발자가헷갈리는문법.py" />
+    <Compile Include="Training\main.py" />
+    <Compile Include="Training\반복문법.py" />
+    <Compile Include="Training\패턴로직.py" />
+    <Compile Include="Training\UserDto.py" />
+    <Compile Include="Training\UserHandler.py" />
     <Compile Include="tuto1.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="1.txt" />
     <Content Include="Documents\class.txt" />
     <Content Include="Documents\function.txt" />
     <Content Include="Documents\varient.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
+    <Folder Include="Training\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
