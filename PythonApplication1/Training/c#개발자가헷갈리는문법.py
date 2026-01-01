@@ -51,7 +51,7 @@ result = "A" if score > 80 else "B"
 for i, value in enumerate(["a", "b", "c"]):
     print(i, value)
 
-# 예외는 리턴값이 아니라 흐름 제어
+# 예외는 리턴값이 아니라 흐름 제어 
 try:
     int("x")
 except ValueError:

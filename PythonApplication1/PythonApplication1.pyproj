@@ -4,11 +4,10 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b0fd9de5-bfa1-44dd-a446-accf35a496f2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>./Training/main.py</StartupFile>
+    <StartupFile>tuto3.py</StartupFile>
     <SearchPath>
     </SearchPath>
-    <WorkingDirectory>
-    </WorkingDirectory>
+    <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>PythonApplication1</Name>
     <RootNamespace>PythonApplication1</RootNamespace>
@@ -30,12 +29,18 @@
     <Compile Include="step4.py" />
     <Compile Include="Training\AI고급문법.py" />
     <Compile Include="Training\c#개발자가헷갈리는문법.py" />
+    <Compile Include="Training\Class1.py" />
+    <Compile Include="Training\고급Class.py" />
+    <Compile Include="Training\중급Class.py" />
     <Compile Include="Training\main.py" />
     <Compile Include="Training\반복문법.py" />
     <Compile Include="Training\패턴로직.py" />
     <Compile Include="Training\UserDto.py" />
     <Compile Include="Training\UserHandler.py" />
     <Compile Include="tuto1.py" />
+    <Compile Include="tuto2.py" />
+    <Compile Include="tuto3.py" />
+    <Compile Include="tuto4.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="1.txt" />
