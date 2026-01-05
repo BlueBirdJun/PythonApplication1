@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b0fd9de5-bfa1-44dd-a446-accf35a496f2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>tuto3.py</StartupFile>
+    <StartupFile>DeepLeaning/선형회귀6.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,17 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DeepLeaning\pytorch_ok.py" />
+    <Compile Include="DeepLeaning\그래프.py" />
+    <Compile Include="DeepLeaning\선형회귀.py" />
+    <Compile Include="DeepLeaning\선형회귀1.py" />
+    <Compile Include="DeepLeaning\선형회귀2.py" />
+    <Compile Include="DeepLeaning\선형회귀3.py" />
+    <Compile Include="DeepLeaning\선형회귀4.py" />
+    <Compile Include="DeepLeaning\선형회귀5.py" />
+    <Compile Include="DeepLeaning\선형회귀6.py" />
+    <Compile Include="DeepLeaning\선형회귀7.py" />
+    <Compile Include="DeepLeaning\선형회귀8.py" />
     <Compile Include="PythonApplication1.py" />
     <Compile Include="step1.py" />
     <Compile Include="step2.py" />
@@ -41,15 +52,18 @@
     <Compile Include="tuto2.py" />
     <Compile Include="tuto3.py" />
     <Compile Include="tuto4.py" />
+    <Compile Include="클래스의관한고수준.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="1.txt" />
+    <Content Include="DeepLeaning\desc.txt" />
     <Content Include="Documents\class.txt" />
     <Content Include="Documents\function.txt" />
     <Content Include="Documents\varient.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
+    <Folder Include="DeepLeaning\" />
     <Folder Include="Training\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

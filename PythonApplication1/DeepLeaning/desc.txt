@@ -1,0 +1,11 @@
+파이터치  설치법 
+딥러닝(Deep Learning) 모델을 만들고 학습시키기 위한 파이썬 기반 프레임워크야.
+연구·실무·서비스까지 다 쓰이는 사실상 표준 도구 중 하나.
+
+
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+
+
+5070을 지원하게
+# Nightly 빌드는 최신 아키텍처인 sm_120(Blackwell)을 공식 지원합니다.
+pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu126
