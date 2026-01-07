@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b0fd9de5-bfa1-44dd-a446-accf35a496f2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>DeepLeaning/선형회귀6.py</StartupFile>
+    <StartupFile>DeepLeaning/선형회귀8.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="1.txt" />
+    <Content Include="DeepLeaning\1.csv" />
     <Content Include="DeepLeaning\desc.txt" />
     <Content Include="Documents\class.txt" />
     <Content Include="Documents\function.txt" />
