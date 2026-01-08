@@ -9,3 +9,10 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 5070을 지원하게
 # Nightly 빌드는 최신 아키텍처인 sm_120(Blackwell)을 공식 지원합니다.
 pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu126
+
+
+최신화
+python -m pip install --upgrade pip
+
+pip install numpy pandas matplotlib
+pip install pandas matplotlib
