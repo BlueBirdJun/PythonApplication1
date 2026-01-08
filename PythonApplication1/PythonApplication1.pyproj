@@ -26,6 +26,8 @@
     <Compile Include="DeepLeaning\그래프.py" />
     <Compile Include="DeepLeaning\선형회귀.py" />
     <Compile Include="DeepLeaning\선형회귀1.py" />
+    <Compile Include="DeepLeaning\선형회귀10.py" />
+    <Compile Include="DeepLeaning\선형회귀11.py" />
     <Compile Include="DeepLeaning\선형회귀2.py" />
     <Compile Include="DeepLeaning\선형회귀3.py" />
     <Compile Include="DeepLeaning\선형회귀4.py" />
@@ -33,11 +35,16 @@
     <Compile Include="DeepLeaning\선형회귀6.py" />
     <Compile Include="DeepLeaning\선형회귀7.py" />
     <Compile Include="DeepLeaning\선형회귀8.py" />
+    <Compile Include="DeepLeaning\선형회귀9.py" />
     <Compile Include="PythonApplication1.py" />
     <Compile Include="step1.py" />
     <Compile Include="step2.py" />
     <Compile Include="step3.py" />
     <Compile Include="step4.py" />
+    <Compile Include="Study\1.py" />
+    <Compile Include="Study\2.py" />
+    <Compile Include="Study\3.py" />
+    <Compile Include="Study\Common.py" />
     <Compile Include="Training\AI고급문법.py" />
     <Compile Include="Training\c#개발자가헷갈리는문법.py" />
     <Compile Include="Training\Class1.py" />
@@ -65,6 +72,7 @@
   <ItemGroup>
     <Folder Include="Documents\" />
     <Folder Include="DeepLeaning\" />
+    <Folder Include="Study\" />
     <Folder Include="Training\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
