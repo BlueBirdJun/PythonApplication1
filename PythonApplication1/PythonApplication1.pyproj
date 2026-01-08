@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b0fd9de5-bfa1-44dd-a446-accf35a496f2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>DeepLeaning/선형회귀8.py</StartupFile>
+    <StartupFile>Study/1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -44,7 +44,7 @@
     <Compile Include="Study\1.py" />
     <Compile Include="Study\2.py" />
     <Compile Include="Study\3.py" />
-    <Compile Include="Study\Common.py" />
+    <Compile Include="Study\Commons.py" />
     <Compile Include="Training\AI고급문법.py" />
     <Compile Include="Training\c#개발자가헷갈리는문법.py" />
     <Compile Include="Training\Class1.py" />
