@@ -46,10 +46,13 @@ loss_history = []
 for epoch in range(epochs):
     m,b =gradient_descent(X_data,Y_data,m,b, learning_rate)
     loss = mean_squard_error(X_data, Y_data, m, b)
-
+    print(m,b)
     m_history.append(m)
     b_history.append(b)
     loss_history.append(loss)
+
+
+print(f"\nFinal Parameters : m={m:.4f}, b={b:.4f}")
 
 
 # 절대값
