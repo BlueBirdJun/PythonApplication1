@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b0fd9de5-bfa1-44dd-a446-accf35a496f2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Study/1.py</StartupFile>
+    <StartupFile>Study/2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -72,6 +72,7 @@
   <ItemGroup>
     <Folder Include="Documents\" />
     <Folder Include="DeepLeaning\" />
+    <Folder Include="로지스틱회귀\" />
     <Folder Include="Study\" />
     <Folder Include="Training\" />
   </ItemGroup>

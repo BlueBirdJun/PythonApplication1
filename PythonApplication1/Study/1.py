@@ -8,8 +8,10 @@ print("시작")
 # Study/1.py  DeepLeaning/선형회귀6.py,Study/1.py
 
 입력배열 = Commons.np.array([1.5,1.8,2.0,2.5,3.3,3.8,4.0,4.9,5.5,5.9,6.0,6.3,7.0,7.2,8.9,9.0,9.5])
-정답배열 = Commons.np.array([50,55,54,58,60,65,69,72,75,79,80,82,84,81,86,89,92])
+정답배열 =   Commons.np.array([50,55,54,58,60,65,69,72,75,79,80,82,84,81,86,89,92])
 
+입력배열=Commons.np.array(입력배열).flatten() # 1차원으로 펴준다
+정답배열=Commons.np.array(정답배열).flatten() # 1차원으로 펴준다
 
 # MSE
 def 오류값(입력배열,정답배열,기울기,절편):
@@ -39,7 +41,7 @@ def 경사_하강(입력배열,정답배열,기울기,절편,미세조정):
     "시간":입력배열,
     "점수":정답배열
     })   
-plt= Commons.chat_util("scatter",입력챠트)
+plt= Commons.chat_util("scatter",입력챠트 )
 
 기울기_기록=[]
 절편_기록 =[]
@@ -48,16 +50,18 @@ plt= Commons.chat_util("scatter",입력챠트)
 for 훈련 in range(훈련횟수):
     기울기,절편=경사_하강(입력배열,정답배열,기울기,절편,미세조정)         
     오류 = 오류값(입력배열,정답배열,기울기,절편) 
-    
-    기울기_기록.append(기울기)
-    절편_기록.append(절편)
+    print(기울기,"|",절편)
+    #기울기_기록.append(기울기)
+    #절편_기록.append(절편)
     오류_기록.append(오류)
+
 
 print(f"\nFinal Parameters : m={기울기:.4f}, b={오류:.4f}")
  
-print(기울기_기록);
+#print(기울기_기록);
 
 # STEP 6 — Evaluation Metrics
+# 절대값 평균
 def mean_absolute_error(y_true, y_pred):
     return Commons.np.mean(Commons.np.abs(y_true - y_pred))
 
@@ -68,14 +72,19 @@ def r2_score(y_true, y_pred):
     ss_total = Commons.np.sum((y_true - Commons.np.mean(y_true))**2)
     ss_residual = Commons.np.sum((y_true - y_pred)**2)
     return 1 - (ss_residual / ss_total)
+
 final_predicted_Y = 기울기 * 입력배열 + 절편
 mae = mean_absolute_error(정답배열, final_predicted_Y)
 rmse = root_mean_squared_error(정답배열, final_predicted_Y)
 r2_custom = r2_score(정답배열, final_predicted_Y)
     
+print(final_predicted_Y)
+#plt.subplot(1,2,1)
+plt.plot(입력배열,final_predicted_Y, color="red", linewidth=2)
 
 plt.subplot(1,2,1)
-plt.plot(입력배열, final_predicted_Y, color="red", linewidth=2)
+plt.plot(오류_기록, color="blue", linewidth=2)
+ 
 plt.show()
      
 print("완료")
